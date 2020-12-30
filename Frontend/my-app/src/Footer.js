@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
         <a
-            className="App-link"
+            className="highlight"
             href="http://shiyanboxer.netlify.app/"
             target="_blank"
           >

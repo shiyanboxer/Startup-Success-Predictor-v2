@@ -17,7 +17,7 @@ class Forms extends Component {
             Founded Year:
             <input type="text" name="founded_year" />
             </label>
-            <input 
+            <input className="button"
             type="submit" 
             value="See Results"
         />
