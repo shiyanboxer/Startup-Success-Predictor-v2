@@ -29,19 +29,13 @@ This web application leverages data science, machine learning, and business prin
 **Ease of Use**
 *   The user interface is intuitive to the user, eliminating any confusion. 
 
-
-### **Target User & Use Case** {#target-user-&-use-case}
-
+### **Target User & Use Case**
 The target user for web application is a venture capitalist who is knowledgeable about the in question company and industry. This program would be used as an internal tool within the firm to help guide VCs on their investment decisions.
 
-
-### **Scope** {#scope}
-
+### **Scope**
 One of the first things I had to consider for this project was defining success. Based on my research and talking to fellow VCs in the industry, I choose “status” as the metric of success. which can either be "operating" or "acquired" which I deemed successful or "closed” which I deemed unsuccessful. For the first iteration, I looked at total funding, founding year, and country as the criteria that would determine success.
 
 The program is an end to end solution consisting of five parts: 
-
-
 
 1. **Clean - **cleans dataset before building the model
 2. **Model **- predicts success 
@@ -50,8 +44,7 @@ The program is an end to end solution consisting of five parts:
 5. **Frontend **- allows user to inputs criteria
 
 
-### **Limitations** {#limitations}
-
+### **Limitations**
 The following is a list of limitations restrict the scope of the project:
 
 *   Limited knowledge of machine learning models
@@ -62,22 +55,19 @@ The following is a list of limitations restrict the scope of the project:
 *   Limited budge (no money)
 
 
-### **Assumptions** {#assumptions}
-
+### **Assumptions**
 The following is a list of assumptions made about the web application:
 *   The program is accessed only on desktop computers
 
-### **Timeline** {#timeline}
+### **Timeline**
 
 **Notes**: Unit tests, integrations tests, debugging, and documentation were done throughout the development process.
 
 
-##### **High level Gannt Chart** {#high-level-gannt-chart}
+##### **High level Gannt Chart**
 
 
-##### **Task Breakdown by Day** {#task-breakdown-by-day}
-
-
+##### **Task Breakdown by Day**
 <table>
   <tr>
    <td><strong>Day 1: Research & Outline</strong>
@@ -151,24 +141,15 @@ The following is a list of assumptions made about the web application:
   </tr>
 </table>
 
-
-
-### 
-
-
-### **Technologies** {#technologies}
-
+### **Technologies** 
 The following technologies were carefully chosen to ensure the design goals listed above. Below is a comparison of popular frontend frameworks, database, model, and api technologies. I ultimately ended up using **React **to build the frontend, **MongoDB **to build the database, **Python** in **Jupyter Notebook **to build the model, and **Flask **to build the API. Additionally, I used the following modules: 
 
-### **Learnings** {#learnings}
+### **Learnings**
 
-
-### **Challenges** {#challenges}
-
+### **Challenges**
 
 ### **What I Would Do Differently**
 ### **Next Steps**
-
 The following is a list of features that are out of scope for this project but would be worthwhile exploring in future iterations. These features would provide a more comprehensive and desirable user experience.
 
 *   Use Tensorflow to automatically classify pictures
