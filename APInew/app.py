@@ -10,7 +10,8 @@ from flask_cors import CORS
 # python wsgi.py
 # curl -X GET http://127.0.0.1:5000/predict
 
-
+app = Flask(__name__)
+cors = CORS(app)
 def load_models():
     file_name = "models/model_file.p"
     with open(file_name, 'rb') as pickled:
@@ -18,15 +19,12 @@ def load_models():
         model = data['model']
     return model
 
-app = Flask(__name__)
-cors = CORS(app)
-@app.route('/predict', methods=['GET'])
+
+@app.route('/predict', methods=['POST'])
 def predict():
-    print("start")
+    
     model = load_models()
     data = json.loads(request.data)
-    print(data)
-    print(request)
 
 
     X_test = np.array([   0, 2013,    0,    0,    0,    0,    0,    0,    0,    0,    0,

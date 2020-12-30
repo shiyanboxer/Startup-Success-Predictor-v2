@@ -3,11 +3,13 @@ import axios from "axios"
 import './App.css';
 
 class Forms extends Component {
-    handler() {
+    handler(e) {
+        e.preventDefault()
         const total_funding = document.getElementById("total_funding").value
         const country = document.getElementById("country").value
         const year = document.getElementById("founded_year").value
-
+        
+        console.log(total_funding + " " + country + " " + year)
         axios({
             method:"POST",
             url:"http://127.0.0.1:5000/predict",
@@ -29,10 +31,11 @@ class Forms extends Component {
             <input type="text" id="country" />
             </label>
             <label>
-            Founded Yearrrrrr:
+            Founded Year:
             <input type="text" id="founded_year" />
             </label>
             <button className="btn btn-primary"
+            
             onClick={this.handler}
         >See Results</button>
         </form>
