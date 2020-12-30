@@ -1,19 +1,5 @@
-# Startup-Success-Predictor-v2
-
-By: Shiyan Boxer
-
-Web App Link
-
-[Heroku API Link](https://startup-success-predictor-api.herokuapp.com/)
-
-[GitHub Link](https://github.com/shiyanboxer/Startup-Success-Predictor)
-
-[Diagrams Link](https://drive.google.com/file/d/1b045bk2AsuREJoj_JI_nRwwf94sz22SE/view?usp=sharing)
-
 ### **Problem Definition**
-
 Traditionally, venture capital is considered more of an art than a science. Venture capitalists meet with founders, perform due diligence, and try to make the most informed investment decision; however, due to the nature of early-stage companies, financial and traction metrics are often scarce.
-
 
 ### **Objectives**
 With the influx and access to data in recent decades, venture capitalists have turned to machine learning and artificial intelligence to help guide them in their investment decisions and explore market trends. Typically these models are not meant to replace VCs but rather enable them to quantify opportunities and avoid bias as much as possible.
@@ -29,19 +15,13 @@ This web application leverages data science, machine learning, and business prin
 **Ease of Use**
 *   The user interface is intuitive to the user, eliminating any confusion. 
 
-
-### **Target User & Use Case** {#target-user-&-use-case}
-
+### **Target User & Use Case**
 The target user for web application is a venture capitalist who is knowledgeable about the in question company and industry. This program would be used as an internal tool within the firm to help guide VCs on their investment decisions.
 
-
-### **Scope** {#scope}
-
+### **Scope**
 One of the first things I had to consider for this project was defining success. Based on my research and talking to fellow VCs in the industry, I choose “status” as the metric of success. which can either be "operating" or "acquired" which I deemed successful or "closed” which I deemed unsuccessful. For the first iteration, I looked at total funding, founding year, and country as the criteria that would determine success.
 
 The program is an end to end solution consisting of five parts: 
-
-
 
 1. **Clean - **cleans dataset before building the model
 2. **Model **- predicts success 
@@ -49,9 +29,7 @@ The program is an end to end solution consisting of five parts:
 4. **Database **- stores company data
 5. **Frontend **- allows user to inputs criteria
 
-
-### **Limitations** {#limitations}
-
+### **Limitations**
 The following is a list of limitations restrict the scope of the project:
 
 *   Limited knowledge of machine learning models
@@ -61,22 +39,15 @@ The following is a list of limitations restrict the scope of the project:
 *   Limited learning resources / self taught
 *   Limited budge (no money)
 
-
-### **Assumptions** {#assumptions}
-
+### **Assumptions**
 The following is a list of assumptions made about the web application:
+
 *   The program is accessed only on desktop computers
 
-### **Timeline** {#timeline}
-
+### **Timeline**
 **Notes**: Unit tests, integrations tests, debugging, and documentation were done throughout the development process.
 
-
-##### **High level Gannt Chart** {#high-level-gannt-chart}
-
-
-##### **Task Breakdown by Day** {#task-breakdown-by-day}
-
+##### **Task Breakdown by Day**
 
 <table>
   <tr>
@@ -152,38 +123,121 @@ The following is a list of assumptions made about the web application:
 </table>
 
 
-
-### 
-
-
-### **Technologies** {#technologies}
+### **Technologies** 
 
 The following technologies were carefully chosen to ensure the design goals listed above. Below is a comparison of popular frontend frameworks, database, model, and api technologies. I ultimately ended up using **React **to build the frontend, **MongoDB **to build the database, **Python** in **Jupyter Notebook **to build the model, and **Flask **to build the API. Additionally, I used the following modules: 
 
-### **Learnings** {#learnings}
+*   **CSV**
+*   **Pandas **
 
 
-### **Challenges** {#challenges}
+##### **Frontend Framework**
 
 
-### **What I Would Do Differently**
-### **Next Steps**
+<table>
+  <tr>
+   <td><strong>Criteria</strong>
+   </td>
+   <td><strong>Vue</strong>
+   </td>
+   <td><strong>React</strong>
+   </td>
+   <td><strong>Angular</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Usability</strong>
+   </td>
+   <td>
+<ul>
 
-The following is a list of features that are out of scope for this project but would be worthwhile exploring in future iterations. These features would provide a more comprehensive and desirable user experience.
+<li>
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
 
-*   Use Tensorflow to automatically classify pictures
-*   Train dataset on multiple datasets
-*   Add additional criteria
-*   Explore other models
-*   Add authentication
+<li>Good community support
+</li>
+</ul>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Scalability</strong>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
 
-### **Resources**
-*   [Productionize a Machine Learning model with Flask and Heroku](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)
-*   [How Other VC Firms are Looking at Data](https://medium.com/hackernoon/winning-by-eating-their-own-dogs-food-83-venture-capital-firms-using-data-ai-proprietary-da92b81b85ef)
-*   [Raise of AI in VC](https://outsideinsight.com/insights/the-growing-focus-on-artificial-intelligence-in-venture-capital/)
-*   [Network Charts and Venture Capital](https://towardsdatascience.com/data-science-in-venture-capital-8c13ec0c8458)
-*   [Structure your data science project](https://www.youtube.com/watch?v=MpF9HENQjDo)
-*   [Sample Project](https://github.com/PlayingNumbers/ds_salary_proj)
-*   [Training a classifier with Pytorch](https://www.kaggle.com/danieldagnino/training-a-classifier-with-pytorch)
-*   [Types of Models](https://www.logianalytics.com/predictive-analytics/predictive-algorithms-and-models/)
-*   [MongoDB vs MySQL](https://www.mongodb.com/compare/mongodb-mysql#:~:text=MySQL%20is%20a%20relational%20database,(SQL)%20for%20database%20access.&text=MongoDB%20is%20a%20NoSQL%20database,data%20as%20JSON%2Dlike%20documents.)
+##### **Database** 
+
+<table>
+  <tr>
+   <td><strong>Criteria</strong>
+   </td>
+   <td><strong>MongoDB</strong>
+   </td>
+   <td><strong>MySQL</strong>
+   </td>
+   <td><strong>Excel</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Usability</strong>
+   </td>
+   <td>
+<ul>
+
+<li>
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Good community support
+</li>
+</ul>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Scalability</strong>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
