@@ -159,12 +159,23 @@ The following is a list of features that are out of scope for this project but w
 *   Add authentication
 
 ### **Resources**
-*   [Productionize a Machine Learning model with Flask and Heroku](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)
-*   [How Other VC Firms are Looking at Data](https://medium.com/hackernoon/winning-by-eating-their-own-dogs-food-83-venture-capital-firms-using-data-ai-proprietary-da92b81b85ef)
-*   [Raise of AI in VC](https://outsideinsight.com/insights/the-growing-focus-on-artificial-intelligence-in-venture-capital/)
-*   [Network Charts and Venture Capital](https://towardsdatascience.com/data-science-in-venture-capital-8c13ec0c8458)
-*   [Structure your data science project](https://www.youtube.com/watch?v=MpF9HENQjDo)
-*   [Sample Project](https://github.com/PlayingNumbers/ds_salary_proj)
-*   [Training a classifier with Pytorch](https://www.kaggle.com/danieldagnino/training-a-classifier-with-pytorch)
-*   [Types of Models](https://www.logianalytics.com/predictive-analytics/predictive-algorithms-and-models/)
-*   [MongoDB vs MySQL](https://www.mongodb.com/compare/mongodb-mysql#:~:text=MySQL%20is%20a%20relational%20database,(SQL)%20for%20database%20access.&text=MongoDB%20is%20a%20NoSQL%20database,data%20as%20JSON%2Dlike%20documents.)
+**VC**
+- [How Other VC Firms are Looking at Data](https://medium.com/hackernoon/winning-by-eating-their-own-dogs-food-83-venture-capital-firms-using-data-ai-proprietary-da92b81b85ef)
+- [Sample Project](https://github.com/PlayingNumbers/ds_salary_proj)
+- [Raise of AI in VC](https://outsideinsight.com/insights/the-growing-focus-on-artificial-intelligence-in-venture-capital/)
+- [Network Charts and Venture Capital](https://towardsdatascience.com/data-science-in-venture-capital-8c13ec0c8458)
+- [Structure your data science project](https://www.youtube.com/watch?v=MpF9HENQjDo)
+
+**Model**
+- [Training a classifier with Pytorch](https://www.kaggle.com/danieldagnino/training-a-classifier-with-pytorch)
+- [Types of Models](https://www.logianalytics.com/predictive-analytics/predictive-algorithms-and-models/)
+
+**API**
+- [Productionize a Machine Learning model with Flask and Heroku](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)
+
+**Frontend**
+- [Create react single-page app](https://reactjs.org/docs/create-a-new-react-app.html)
+
+**Database**
+- [MongoDB vs MySQL](https://www.mongodb.com/compare/mongodb-mysql#:~:text=MySQL%20is%20a%20relational%20database,(SQL)%20for%20database%20access.&text=MongoDB%20is%20a%20NoSQL%20database,data%20as%20JSON%2Dlike%20documents)
+
