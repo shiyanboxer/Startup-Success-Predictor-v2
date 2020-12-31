@@ -37,10 +37,10 @@ This web application leverages data science, machine learning, and business prin
 5. **Frontend** allows user to inputs criteria
 
 ### **Technologies** 
-- React to build the frontend
-- MongoDB to build the database
-- Python in Jupyter Notebook to build the model and clean
-- Flask to build the API
+- **React** to build the frontend
+- **MongoDB** to build the database
+- **Python** in **Jupyter Notebook** to build the model and clean
+- **Flask** to build the API
 
 ### **Demo**
 
