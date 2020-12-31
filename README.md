@@ -13,9 +13,11 @@
 ![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)
 
 ### **Quickstart**
+```
 npm install
 pip install -r requirements.txt
- 
+```
+
 ### **About**
 This web application leverages data science, machine learning, and business principles to predict the success of startups based on common characteristics. The goal is to ensure reliability, scalability, and ease of use. The program is an end to end solution consisting of five parts: 
 
