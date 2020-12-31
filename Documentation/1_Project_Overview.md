@@ -45,7 +45,7 @@ The following is a list of assumptions made about the web application:
 **Notes**: Unit tests, integrations tests, debugging, and documentation were done throughout the development process.
 
 ### **High level Gannt Chart**
-![alt text](http://url/to/img.png)
+![Gannt Chart](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/GanntChart.jpg)
 
 ### **Task Breakdown by Day**
 <table>
