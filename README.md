@@ -2,6 +2,15 @@
 
 ### By: Shiyan Boxer
 
+### TODO
+- What other diagrams
+- What unit tests and integration
+- What is the model taking in?
+- deploy to heroku
+- build Mongo cluster
+- deploy via netlify
+- Demo video
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b5faaeb5-1617-4e1f-9b9e-04fc68c52591/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
 #### [Heroku API Link](https://startup-success-predictor-api.herokuapp.com/)
