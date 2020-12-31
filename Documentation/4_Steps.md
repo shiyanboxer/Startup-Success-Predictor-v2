@@ -1,4 +1,4 @@
-## **Steps** {#steps}
+## **Steps**
 
 
 ### **Clean** {#clean}
