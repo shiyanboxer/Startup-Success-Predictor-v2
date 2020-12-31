@@ -33,6 +33,8 @@ This web application leverages data science, machine learning, and business prin
 - Python in Jupyter Notebook to build the model and clean
 - Flask to build the API
 
+### **Demo**
+
 ### **Learnings**
 
 ### **Challenges**
