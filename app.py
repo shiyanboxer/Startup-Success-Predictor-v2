@@ -10,6 +10,7 @@ from flask_cors import CORS
 # python wsgi.py
 # curl -X GET http://127.0.0.1:5000/predict
 
+
 app = Flask(__name__)
 cors = CORS(app)
 def load_models():
@@ -35,4 +36,4 @@ def predict():
     return response, 200
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    app.run(debug=True)
