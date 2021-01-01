@@ -26,19 +26,12 @@ def predict():
     model = load_models()
     data = json.loads(request.data)
 
-
-    X_test = np.array([   0, 2013,    0,    0,    0,    0,    0,    0,    0,    0,    0,
-          0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
-          0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
-          0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
-          0,    0,    0,    0,    0,    0,    0,    0,    0,    1,    0])
+    total_funding = float(data['total_funding'])
+    founded_year = float(data['founded_year'])
+    x_test = np.array([total_funding, founded_year])
+    prediction = model.predict(x_test.reshape(1,-1))
+    response = json.dumps({'response': np.around(prediction[0],0)})
     
-    x_in = np.array(X_test).reshape(1,-1)
-    prediction = model.predict(x_in)
-    print(prediction)
-
-    # prediction = model.predict(x_in)[0]
-    response = json.dumps({'response': prediction[0]})
     return response, 200
 
 if __name__ == '__main__':
