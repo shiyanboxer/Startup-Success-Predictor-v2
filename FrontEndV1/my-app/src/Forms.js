@@ -18,7 +18,7 @@ class Forms extends Component {
 
         axios({
             method:"POST",
-            url:"http://127.0.0.1:5000/predict",
+            url:"https://startup-success-predictor-api.herokuapp.com/predict",
             data:{"total_funding":total_funding, "founded_year":founded_year}
         }).then( (response)=>{
             const output = response.data
