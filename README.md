@@ -11,7 +11,6 @@
   - [5 Test, Contribute, Version, and Learning Resources](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/5_Test_Contribute_Version.md)
 
 - #### [Heroku API Link](https://startup-success-predictor-api.herokuapp.com)
-- #### [Website Repository](https://github.com/shiyanboxer/Startup-Success-Predictor-Site/tree/master/my-app)
 - #### [Website Link](https://startup-success-predictor.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/586844c1-91fa-46d5-a162-364a75f6697b/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
