@@ -23,11 +23,11 @@ npm run test:watch runs Jest in watch mode, where individual tests can be viewed
 5. Submit a pull request
 
 ## Versioning
-As of Janary 2nd, 2021, there is only 1 version of the API available for use.
+As of January 2nd, 2021, there is only 1 version of the API available for use.
 
 ### Version 1
 **Requirements**
-- Enter numbers (type float) into "Total Funding" and "Founding Year" box
+- Enter numbers (type float) into the "Total Funding" and "Founding Year" box
 - Press "Enter Details" to see results
 
 **Endpoints**
