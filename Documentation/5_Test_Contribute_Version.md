@@ -31,8 +31,8 @@ As of Janary 2nd, 2021, there is only 1 version of the API available for use.
 - Press "Enter Details" to see results
 
 **Endpoints**
-POST https://startup-success-predictor-api.herokuapp.com/predict
-GET https://startup-success-predictor-api.herokuapp.com/
+- POST https://startup-success-predictor-api.herokuapp.com/predict
+- GET https://startup-success-predictor-api.herokuapp.com/
 
 ### Learning Resources
 **VC**
