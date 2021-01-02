@@ -9,21 +9,51 @@ The program connects to the MongoDB database. When the user inputs criteria into
 
 ![alt_text](images/image1.png "image_tooltip")
 
-### **Database Schema**
+### Input and Output
 
-![alt_text](images/image1.png "image_tooltip")
+The user inputs total funding and founding year and receives an output of 0 or 1. 
 
-### **API Input and Output**
-The user inputs total funding, founding year, and country and receives an output of 0 or 1. 
+![Input and Output](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/InOut.jpg)
 
-![alt_text](images/image1.png "image_tooltip")
+### API Endpoint
+GET https://startup-success-predictor-api.herokuapp.com/
 
-### **Productionizing the Model with Flask and Heroku** 
-In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the [TDS tutorial](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) (Diagram by [Medium](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)).
+FUNCTION: hello
 
-![alt_text](images/image1.png "image_tooltip")
+EXAMPLE RESPONSE
 
-### **GUI Interface Sketch**
+```
+{
+    "hello world"
+}
+```
+
+POST https://startup-success-predictor-api.herokuapp.com/predict
+
+FUNCTION: predict
+
+EXAMPLE RESPONSE
+
+```
+{
+    "response":"0.9108394" 
+}
+```
+
+### Ineraction between Client and API
+
+![Ineraction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
+
+### Pickling
+
+![Picking](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/python_pickle.png)
+
+### Productionizing the Model with Flask and Heroku
+
+![Productionizing the Model with Flask and Heroku](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
+
+### Website Sketch
+
 This is a rough sketch of the frontend. 
 
-![alt_text](images/image1.png "image_tooltip")
+![Website Sketch](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteSketch.jpg)
