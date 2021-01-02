@@ -1,6 +1,5 @@
-## **Testing**
+## Testing
 The application is thoroughly tested using Jest and Supertest.
-
 CodeCov is used to validate the 92% code coverage, and CirclCI is used to run all tests before a branch is merged to master.
 
 This ensures the build isn't broken by changes in code logic.
@@ -17,17 +16,17 @@ Run all suites of tests
 
 npm run test:watch runs Jest in watch mode, where individual tests can be viewed. Type in p to filter tests by filename regex, then v2 and press Enter to view the tests for version 2 of the API.
 
-
-## **Contributing**
+## Contributing
 Submit an issue (feature request or bug)
 Create a branch: git checkout -b feature/feature-implementing
 Commit changes to the branch: git add . && git commit -m "Present tense commit message"
 Push the changes: git push -u origin feature/feature-implementing
 Submit a pull request
-Versioning
+
+## Versioning
 There are 2 versions of the API available for use: Version 1 and Version 2.
 
-Version 1 (soon to be deprecated)
+Version 1
 Requirements
 Build a server side web api that can be used to fetch products either one at a time or all at once.
 Every product should have a title, price, and inventory_count.
@@ -49,15 +48,8 @@ PATCH /api/v1/products/{sku}
 
 Purchase an individual product by SKU.
 
-Version 2
-Requirements
-Fit these product purchases into the context of a simple shopping cart.
-The cart should contain a list of all included products, a total dollar amount (the total value of all products)
-Product inventory shouldn't reduce until after a cart has been completed.
-Endpoints
-See documentation
 
-### **Resources**
+### Learning Resources
 **VC**
 - [How Other VC Firms are Looking at Data](https://medium.com/hackernoon/winning-by-eating-their-own-dogs-food-83-venture-capital-firms-using-data-ai-proprietary-da92b81b85ef)
 - [Sample Project](https://github.com/PlayingNumbers/ds_salary_proj)
