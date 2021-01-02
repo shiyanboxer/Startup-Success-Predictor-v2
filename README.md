@@ -30,7 +30,7 @@ This web application leverages data science, machine learning, and business prin
 - **[React](https://reactjs.org/docs/create-a-new-react-app.html)** to build the frontend
   - [Axios](https://www.npmjs.com/package/axios)
   - Bootstrap [Cards](https://mdbootstrap.com/docs/react/components/cards/) and [Forms](https://mdbootstrap.com/docs/react/forms/basic/)
-- **[Python](https://www.python.org/downloads/release/python-370/)** in **[Jupyter Notebook](https://jupyter.org/)** to build the model and clean
+- **[Python 3.7](https://www.python.org/downloads/release/python-370/)** in **[Jupyter Notebook](https://jupyter.org/)** to build the model and clean
   - [Sklean](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
   - [Numpy](https://numpy.org/doc/stable/reference/generated/numpy.array.html)
   - [Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
