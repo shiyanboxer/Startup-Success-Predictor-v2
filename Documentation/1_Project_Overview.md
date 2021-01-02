@@ -175,69 +175,96 @@ The following is a list of assumptions made about the web application:
 
 ### **Task Breakdown by Day**
 
+<table>
+  <tr>
    <td>Day 1: Research & Outline
+<ul>
 
+<li>Research and compare existing solutions and models
 
+<li>Define success and criteria
 
-*   Research and compare existing solutions and models
-*   Define success and criteria
-*   Outline problem definition, objectives, target user & use case, scope, limitations, assumptions, timeline
+<li>Outline problem definition, objectives, target user & use case, scope, limitations, assumptions, timeline
+</li>
+</ul>
+   </td>
+   <td>Day 5: Develop Frontend and Connect to Backend
+<ul>
+
+<li>Create a react app
+
+<li>Basic styling forms and cards bootstrap
+
+<li>Connect the front and backend (send input from forms to api, get back a response, and display on website)
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>Day 2: Plan & Diagrams
+<ul>
+
+<li>Research and compare technologies
+
+<li>Create plan of execution and timeline
+
+<li>Create software architecture, UML diagrams, GUI diagram,
+</li>
+</ul>
+   </td>
+   <td>Day 5: Develop Frontend and Connect to Backend
+<ul>
+
+<li>Connect the front and backend (send input from forms to api, get back a response, and display on website)
+
+<li>Change output, if the response if above 0.5 round up -> 1 = success, else unsuccessful
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>Day 3: Clean Dataset & Develop Model
+<ul>
+
+<li>Remove NA cells
+
+<li>Select relevant columns
+
+<li>Create success column
+
+<li>Trains test split
+
+<li>Train and test model
+
+<li>Pickle the model
+</li>
+</ul>
+   </td>
+   <td>Day 7: Test, Debug & Deploy API to Heroku & Website to Netlify
+<ul>
+
+<li>Test program in website using inspect tool to see if response is correct
+
+<li>Deploy API to Heroku
+
+<li>Create a separate website repo
+
+<li>Deploy API to Netlify 
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>Day 4: Develop Flask API
+<ul>
+
+<li>Create the predict, load_model, and hello functions in app.py
+
+<li>Test on local host
+</li>
+</ul>
    </td>
    <td>
-Day 5: Develop Frontend and Connect to Backend
-
-
-
-*   Create a react app
-*   Basic styling forms and cards bootstrap
-*   Connect the front and backend (send input from forms to api, get back a response, and display on website)
    </td>
-   <td>
-Day 2: Plan & Diagrams
-
-
-
-*   Research and compare technologies
-*   Create plan of execution and timeline
-*   Create software architecture, UML diagrams, GUI diagram,
-   </td>
-   <td>
-Day 5: Develop Frontend and Connect to Backend
-
-
-
-*   Connect the front and backend (send input from forms to api, get back a response, and display on website)
-*   Change output, if the response if above 0.5 round up -> 1 = success, else unsuccessful
-   </td>
-   <td>
-Day 3: Clean Dataset & Develop Model
-
-
-
-*   Remove NA cells
-*   Select relevant columns
-*   Create success column
-*   Trains test split
-*   Train and test model
-*   Pickle the model
-   </td>
-   <td>
-Day 7: Test, Debug & Deploy API to Heroku & Website to Netlify
-
-
-
-*   Test program in website using inspect tool to see if response is correct
-*   Deploy API to Heroku
-*   Create a separate website repo
-*   Deploy API to Netlify 
-   </td>
-   <td>
-Day 4: Develop Flask API
-
-
-
-*   Create the predict, load_model, and hello functions in app.py
-*   Test on local host
-   </td>
-   <td>
-   </td>
+  </tr>
+</table>
