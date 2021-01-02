@@ -3,19 +3,10 @@
 ### By: Shiyan Boxer
 ### Last Updated: January 2nd, 2021
 
-### TODO
-- Finish documentation
-- Demo video
-
-### Read more about this project in the Documentation folder
-- [Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
-
-#### Backend
-- [Heroku API Link](https://startup-success-predictor-api.herokuapp.com)
-
-#### Frontend
-- [Website Repository](https://github.com/shiyanboxer/Startup-Success-Predictor-Site/tree/master/my-app)
-
+- #### [Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
+- #### [Heroku API Link](https://startup-success-predictor-api.herokuapp.com)
+- #### [Website Repository](https://github.com/shiyanboxer/Startup-Success-Predictor-Site/tree/master/my-app)
+- #### [Website Link](https://startup-success-predictor.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/586844c1-91fa-46d5-a162-364a75f6697b/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
 ![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)
@@ -51,9 +42,7 @@ This web application leverages data science, machine learning, and business prin
 
 ### **Next Steps**
 The following is a list of features that are out of scope for this project but would be worthwhile exploring in future iterations. These features would provide a more comprehensive and desirable user experience.
-
-*   Use Tensorflow to automatically classify pictures
-*   Train dataset on multiple datasets
-*   Add additional criteria
-*   Explore other models
-*   Add authentication
+- Train dataset on multiple datasets
+- Add additional criteria
+- Explore other models
+- Add authentication
