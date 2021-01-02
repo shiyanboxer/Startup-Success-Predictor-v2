@@ -133,10 +133,10 @@ The following technologies were carefully chosen to ensure the design goals list
 </table>
 
 ## **Target User & Use Case**
-The target user for web application is a venture capitalist who is knowledgeable about the in question company and industry. This program would be used as an internal tool within the firm to help guide VCs on their investment decisions.
+The target user for the web application is a venture capitalist who is knowledgeable about the company and industry in question. This program would be used as an internal tool within the firm to help guide VCs on their investment decisions.
 
 ## **Scope**
-One of the first things I had to consider for this project was defining success. Based on my research and talking to fellow VCs in the industry, I choose “status” as the metric of success. which can either be "operating" or "acquired" which I deemed successful or "closed” which I deemed unsuccessful. For the first iteration, I looked at total funding, founding year, and country as the criteria that would determine success.
+One of the first things I had to consider for this project was defining success. Based on my research and talking to fellow VCs in the industry, I choose “status” as the metric of success. which can either be "operating" or "acquired" which I deemed successful or "closed” which I deemed unsuccessful. For the first iteration, I looked at total funding, founding year, and the country as the criteria that would determine success.
 
 The program is an end to end solution consisting of five parts: 
 1. **Clean**cleans dataset before building the model
