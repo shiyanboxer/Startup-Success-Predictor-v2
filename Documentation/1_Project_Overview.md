@@ -30,12 +30,12 @@ The program is an end to end solution consisting of five parts:
 
 ## **Limitations**
 The following is a list of limitations restrict the scope of the project:
-*   Limited knowledge of machine learning models
-*   Limited knowledge of venture capital
-*   2 week time constraint
-*   Only one developer
-*   Limited learning resources / self taught
-*   Limited budge (no money)
+- Limited knowledge of machine learning models
+- Limited knowledge of venture capital
+- 2 week time constraint
+- Only one developer
+- Limited learning resources / self taught
+- Limited budge (no money)
 
 ## **Assumptions**
 The following is a list of assumptions made about the web application:
