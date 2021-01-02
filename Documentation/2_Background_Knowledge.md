@@ -56,7 +56,7 @@ EXAMPLE RESPONSE
 
 ### Ineraction between Client and API
 
-[Ineraction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
+![Ineraction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
 
 ### Input and Output
 
