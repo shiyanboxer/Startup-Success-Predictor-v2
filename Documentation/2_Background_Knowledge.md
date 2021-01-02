@@ -15,11 +15,39 @@ The [Crunchbase](https://www.kaggle.com/arindam235/startup-investments-crunchbas
 
 ## API
 
+### API Endpoint
+![Input and Output](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/InOut.jpg)
+
+GET https://startup-success-predictor-api.herokuapp.com/
+
+FUNCTION: hello
+
+EXAMPLE RESPONSE
+
+```
+{
+    "hello world"
+}
+```
+
+POST https://startup-success-predictor-api.herokuapp.com/predict
+
+FUNCTION: predict
+
+EXAMPLE RESPONSE
+
+```
+{
+    "response":"0.9108394" 
+}
+```
+
 ### REST API
+
 ![REST API]()
 
-#### Pickling
+### Pickling
+
 ![Picking]()
 
-#### API Re
-![Input and Output](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/InOut.jpg)
+
