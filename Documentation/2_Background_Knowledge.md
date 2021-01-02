@@ -25,41 +25,6 @@ answer = list(np.around(predictions,0) == y_test)
 acc = answer.count(True) / len(answer)
 ```
 
-## API
-
-### API Endpoint
-GET https://startup-success-predictor-api.herokuapp.com/
-
-FUNCTION: hello
-
-EXAMPLE RESPONSE
-
-```
-{
-    "hello world"
-}
-```
-
-POST https://startup-success-predictor-api.herokuapp.com/predict
-
-FUNCTION: predict
-
-EXAMPLE RESPONSE
-
-```
-{
-    "response":"0.9108394" 
-}
-```
-
-### REST API
+## REST API
 
 ![REST API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/what_is_rest_api.png)
-
-### Ineraction between Client and API
-
-![Ineraction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
-
-### Pickling
-
-![Picking](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/python_pickle.png)
