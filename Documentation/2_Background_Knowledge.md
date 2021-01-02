@@ -6,6 +6,8 @@ The [Crunchbase dataset](https://www.kaggle.com/arindam235/startup-investments-c
 ## Model
 This project uses linear regression to predict the success. Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data. One variable is considered to be an explanatory variable, and the other is considered to be a dependent variable [Yale Ed](http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm).
 
+![Linear Regression](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/LinReg.png)
+
 ### Testing the Accuracy of the Model
 
 **Method 1: Using a built in libary**
@@ -57,10 +59,6 @@ EXAMPLE RESPONSE
 ### Ineraction between Client and API
 
 ![Ineraction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
-
-### Input and Output
-
-![Input and Output](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/InOut.jpg)
 
 ### Pickling
 
