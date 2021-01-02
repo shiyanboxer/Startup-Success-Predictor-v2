@@ -34,7 +34,7 @@ As of Janary 2nd, 2021, there is only 1 version of the API available for use.
 - POST https://startup-success-predictor-api.herokuapp.com/predict
 - GET https://startup-success-predictor-api.herokuapp.com/
 
-### Learning Resources
+## Learning Resources
 **VC**
 - [How Other VC Firms are Looking at Data](https://medium.com/hackernoon/winning-by-eating-their-own-dogs-food-83-venture-capital-firms-using-data-ai-proprietary-da92b81b85ef)
 - [Sample Project](https://github.com/PlayingNumbers/ds_salary_proj)
