@@ -9,115 +9,13 @@ With the influx and access to data in recent decades, venture capitalists have t
 This web application leverages data science, machine learning, and business principles to predict the success of startups based on common characteristics. The goal is to ensure reliability, scalability, and ease of use. These goals are met by the following design choices:
 
 **Reliability**
-- VCs are given accurate predictions. This is achieved by the calculateDistance() method in the Address class. It converts the longitude and latitude to radians and computes the distance between the user and the given location. 
+- VCs are given accurate predictions. This is achieved by using an appropriate model, testing and tuning until it reaches above 90% accuracy. 
+
 **Scalability**
-- The technologies chosen for the web application enable the web app to be scalable.
+- The technologies chosen for the web application enable the web app to be altered and scalable.
+
 **Ease of Use**
-- The user interface is intuitive to the user, eliminating any confusion. 
-
-## **Target User & Use Case**
-The target user for web application is a venture capitalist who is knowledgeable about the in question company and industry. This program would be used as an internal tool within the firm to help guide VCs on their investment decisions.
-
-## **Scope**
-One of the first things I had to consider for this project was defining success. Based on my research and talking to fellow VCs in the industry, I choose “status” as the metric of success. which can either be "operating" or "acquired" which I deemed successful or "closed” which I deemed unsuccessful. For the first iteration, I looked at total funding, founding year, and country as the criteria that would determine success.
-
-The program is an end to end solution consisting of five parts: 
-1. **Clean**cleans dataset before building the model
-2. **Model** predicts success 
-3. **API** allows requests to the model
-4. **Database** stores company data
-5. **Frontend** allows user to inputs criteria
-
-## **Limitations**
-The following is a list of limitations that restricts the scope of the project:
-- Limited knowledge of machine learning models
-- Limited knowledge of venture capital
-- 2-week time constraint
-- Only one developer
-- Limited learning resources / self-taught
-- Limited budget (no money)
-
-## **Assumptions**
-The following is a list of assumptions made about the web application:
-- The user inputs accurate details
-- The user has a good understanding of VC and can use the predictions appropriately
-
-## **Timeline**
-**Notes**: Unit tests, integrations tests, debugging, and documentation were done throughout the development process.
-
-### **Task Breakdown by Day**
-<table>
-  <tr>
-   <td><strong>Day 1: Research & Outline</strong>
-<ul>
-
-<li>Research and compare existing solutions and models
-
-<li>Define success and criteria
-
-<li>Outline problem definition, objectives, target user & use case, scope, limitations, assumptions, timeline
-</li>
-</ul>
-   </td>
-   <td><strong>Day 8: Develop frontend</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 2: Plan & Diagrams</strong>
-<ul>
-
-<li>Research and compare technologies
-
-<li>Create plan of execution and timeline
-
-<li>Create software architecture, UML diagrams, GUI diagram,
-</li>
-</ul>
-   </td>
-   <td><strong>Day 9: Develop frontend</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 3: Clean dataset</strong>
-   </td>
-   <td><strong>Day 10: Unit Test, Integration Tests, & Debug</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 4: Develop database</strong>
-   </td>
-   <td><strong>Day 11: Unit Test, Integration Tests, & Debug</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 5: Develop model</strong>
-   </td>
-   <td><strong>Day 12: Deploy</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 6: Develop and train model</strong>
-   </td>
-   <td><strong>Day 13: Documentation</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 7: Productionize with API endpoint</strong>
-<ul>
-
-<li>
-</li>
-</ul>
-   </td>
-   <td><strong>Day 14: Documentation</strong>
-<ul>
-
-<li>Complete documentation
-</li>
-</ul>
-   </td>
-  </tr>
-</table>
+- The user interface is intuitive to the user, eliminating any confusion.
 
 
 ## **Technologies** 
@@ -230,6 +128,110 @@ The following technologies were carefully chosen to ensure the design goals list
    <td>
    </td>
    <td>
+   </td>
+  </tr>
+</table>
+
+## **Target User & Use Case**
+The target user for web application is a venture capitalist who is knowledgeable about the in question company and industry. This program would be used as an internal tool within the firm to help guide VCs on their investment decisions.
+
+## **Scope**
+One of the first things I had to consider for this project was defining success. Based on my research and talking to fellow VCs in the industry, I choose “status” as the metric of success. which can either be "operating" or "acquired" which I deemed successful or "closed” which I deemed unsuccessful. For the first iteration, I looked at total funding, founding year, and country as the criteria that would determine success.
+
+The program is an end to end solution consisting of five parts: 
+1. **Clean**cleans dataset before building the model
+2. **Model** predicts success 
+3. **API** allows requests to the model
+4. **Database** stores company data
+5. **Frontend** allows user to inputs criteria
+
+## **Limitations**
+The following is a list of limitations that restricts the scope of the project:
+- Limited knowledge of machine learning models
+- Limited knowledge of venture capital
+- 2-week time constraint
+- Only one developer
+- Limited learning resources / self-taught
+- Limited budget (no money)
+
+## **Assumptions**
+The following is a list of assumptions made about the web application:
+- The user inputs accurate details
+- The user has a good understanding of VC and can use the predictions appropriately
+
+## **Timeline**
+**Notes**: Unit tests, integrations tests, debugging, and documentation were done throughout the development process.
+
+### **Task Breakdown by Day**
+<table>
+  <tr>
+   <td><strong>Day 1: Research & Outline</strong>
+<ul>
+
+<li>Research and compare existing solutions and models
+
+<li>Define success and criteria
+
+<li>Outline problem definition, objectives, target user & use case, scope, limitations, assumptions, timeline
+</li>
+</ul>
+   </td>
+   <td><strong>Day 8: Develop frontend</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Day 2: Plan & Diagrams</strong>
+<ul>
+
+<li>Research and compare technologies
+
+<li>Create plan of execution and timeline
+
+<li>Create software architecture, UML diagrams, GUI diagram,
+</li>
+</ul>
+   </td>
+   <td><strong>Day 9: Develop frontend</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Day 3: Clean dataset</strong>
+   </td>
+   <td><strong>Day 10: Unit Test, Integration Tests, & Debug</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Day 4: Develop database</strong>
+   </td>
+   <td><strong>Day 11: Unit Test, Integration Tests, & Debug</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Day 5: Develop model</strong>
+   </td>
+   <td><strong>Day 12: Deploy</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Day 6: Develop and train model</strong>
+   </td>
+   <td><strong>Day 13: Documentation</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Day 7: Productionize with API endpoint</strong>
+<ul>
+
+<li>
+</li>
+</ul>
+   </td>
+   <td><strong>Day 14: Documentation</strong>
+<ul>
+
+<li>Complete documentation
+</li>
+</ul>
    </td>
   </tr>
 </table>
