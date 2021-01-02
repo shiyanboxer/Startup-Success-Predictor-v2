@@ -29,23 +29,21 @@ The program is an end to end solution consisting of five parts:
 5. **Frontend** allows user to inputs criteria
 
 ## **Limitations**
-The following is a list of limitations restrict the scope of the project:
+The following is a list of limitations that restricts the scope of the project:
 - Limited knowledge of machine learning models
 - Limited knowledge of venture capital
-- 2 week time constraint
+- 2-week time constraint
 - Only one developer
-- Limited learning resources / self taught
-- Limited budge (no money)
+- Limited learning resources / self-taught
+- Limited budget (no money)
 
 ## **Assumptions**
 The following is a list of assumptions made about the web application:
-- The program is accessed only on desktop computers
+- The user inputs accurate details
+- The user has a good understanding of VC and can use the predictions appropriately
 
 ## **Timeline**
 **Notes**: Unit tests, integrations tests, debugging, and documentation were done throughout the development process.
-
-### **High level Gannt Chart**
-![Gannt Chart](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/GanntChart.jpg)
 
 ### **Task Breakdown by Day**
 <table>
