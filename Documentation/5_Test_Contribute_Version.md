@@ -1,3 +1,5 @@
+# Testing, Contributing, Versioning, & Learning Resources
+
 ## Testing
 The application is thoroughly tested using Jest and Supertest.
 CodeCov is used to validate the 92% code coverage, and CirclCI is used to run all tests before a branch is merged to master.
