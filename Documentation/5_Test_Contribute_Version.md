@@ -1,4 +1,4 @@
-# Testing, Contributing, Versioning, & Learning Resources
+# 5. Testing, Contributing, Versioning, & Learning Resources
 
 ## Testing
 The application is thoroughly tested using Jest and Supertest.
