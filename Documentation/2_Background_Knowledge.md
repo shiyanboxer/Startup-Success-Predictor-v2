@@ -29,6 +29,6 @@ acc = answer.count(True) / len(answer)
 
 An API is an application programming interface. It is a set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it.
 
-REST determines how the API looks like. It stands for “Representational State Transfer”. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL. [(Resource)](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+REST determines how the API looks like. It stands for “Representational State Transfer”. It is a set of rules that developers follow when they create their API. One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL [(Resource)](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/).
 
 ![REST API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/what_is_rest_api.png)
