@@ -1,5 +1,4 @@
 ## **Software Architecture**
-The program connects to the MongoDB database. When the user inputs criteria into the frontend, it sends a GET request to the Flask API. The model is wrapped in the 
 
 ### **UML Diagram**
 
