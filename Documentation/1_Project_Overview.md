@@ -19,9 +19,20 @@ This web application leverages data science, machine learning, and business prin
 
 
 ## **Technologies** 
-The following technologies were carefully chosen to ensure the design goals listed above. Below is a comparison of popular frontend frameworks, database, model, and api technologies. I ultimately ended up using **React **to build the frontend, **MongoDB **to build the database, **Python** in **Jupyter Notebook **to build the model, and **Flask **to build the API. Additionally, I used the following modules: 
-- **CSV**
-- **Pandas**
+The following technologies were carefully chosen to ensure the design goals listed above. Below is a comparison of popular frontend frameworks, database, model, and API technologies. The following is the list of technologies I used for this project:
+
+- **[React](https://reactjs.org/docs/create-a-new-react-app.html)** to build the frontend
+  - **[Axios](https://www.npmjs.com/package/axios)**
+  - Bootstrap **[Cards](https://mdbootstrap.com/docs/react/components/cards/)** and **[Forms](https://mdbootstrap.com/docs/react/forms/basic/)**
+- **[Python 3.7](https://www.python.org/downloads/release/python-370/)** in **[Jupyter Notebook](https://jupyter.org/)** to build the model and clean
+  - **[CSV](https://docs.python.org/3/library/csv.html)**
+- **[Sklean](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)**
+  - **[Numpy](https://numpy.org/doc/stable/reference/generated/numpy.array.html)**
+  - **[Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)**
+  - **[Pickle](https://docs.python.org/3/library/pickle.html)**
+- **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** to build the API
+  - **[Guicorn server](https://gunicorn.org/)**
+- **[MongoDB](https://www.mongodb.com/2)** to build the database
 
 ### **Frontend Framework**
 <table>
