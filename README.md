@@ -9,7 +9,7 @@
 - #### [Website Link](https://startup-success-predictor.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/586844c1-91fa-46d5-a162-364a75f6697b/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
-![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)
+### Demo
 
 ### **Quickstart**
 ```
@@ -38,8 +38,6 @@ This web application leverages data science, machine learning, and business prin
 - **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** to build the API
   - **[Guicorn server](https://gunicorn.org/)**
 - **[MongoDB](https://www.mongodb.com/2)** to build the database
-
-### **Demo**
 
 ### **Learnings**
 
