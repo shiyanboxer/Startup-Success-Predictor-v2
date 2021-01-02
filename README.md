@@ -3,21 +3,19 @@
 ### By: Shiyan Boxer
 
 ### TODO
-- What other diagrams
-- What unit tests and integration
-- What is the model taking in?
-- deploy to heroku
-- build Mongo cluster
-- deploy via netlify
+- Finish documentation
 - Demo video
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5faaeb5-1617-4e1f-9b9e-04fc68c52591/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
+### Read more about this project in the Documentation folder
+- [Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
 
-#### [Heroku API Link](https://startup-success-predictor-api.herokuapp.com/)
+#### Backend
+- [Heroku API Link](https://startup-success-predictor-api.herokuapp.com)
 
-#### [Diagrams Link](https://drive.google.com/file/d/1b045bk2AsuREJoj_JI_nRwwf94sz22SE/view?usp=sharing)
+#### Frontend
+- [Website Repository](https://github.com/shiyanboxer/Startup-Success-Predictor-Site/tree/master/my-app)
 
-### [Read more about this project in the Documentation folder](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/586844c1-91fa-46d5-a162-364a75f6697b/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
 ![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)
 
