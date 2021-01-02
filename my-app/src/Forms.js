@@ -22,7 +22,7 @@ class Forms extends Component {
             data:{"total_funding":total_funding, "founded_year":founded_year}
         }).then( (response)=>{
             const output = response.data
-            if (output.response == 1) {document.getElementById("target").innerHTML = "This company will be ... SUCCESSFUL"} 
+            if (output.response === 1) {document.getElementById("target").innerHTML = "This company will be ... SUCCESSFUL"} 
             else { {document.getElementById("target").innerHTML = "This company will be ... UNSUCCESSFUL"}}       
         })      
     }
