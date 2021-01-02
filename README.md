@@ -1,6 +1,7 @@
 # Startup-Success-Predictor-v2
 
 ### By: Shiyan Boxer
+### Last Updated: January 2nd, 2021
 
 ### TODO
 - Finish documentation
