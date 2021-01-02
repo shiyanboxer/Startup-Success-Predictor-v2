@@ -49,7 +49,8 @@ This web application leverages data science, machine learning, and business prin
 
 ### **Next Steps**
 The following is a list of features that are out of scope for this project but would be worthwhile exploring in future iterations. These features would provide a more comprehensive and desirable user experience.
-- Train dataset on multiple datasets
-- Add additional criteria
-- Explore other models
-- Add authentication
+- Create and connect a database, instead of using an excel sheet to hold company info 
+- Train and test on multiple datasets, not just [Crunchbase](https://www.kaggle.com/arindam235/startup-investments-crunchbase/data)
+- Add additional parameters such as country, number of rounds raised, number of founders
+- Explore and compare other models such as random forest
+- Explore other methods of validating the results of the model such as MSE and MAE
