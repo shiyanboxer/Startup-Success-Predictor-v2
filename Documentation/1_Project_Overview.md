@@ -174,75 +174,70 @@ The following is a list of assumptions made about the web application:
 **Notes**: Unit tests, integrations tests, debugging, and documentation were done throughout the development process.
 
 ### **Task Breakdown by Day**
-<table>
-  <tr>
-   <td><strong>Day 1: Research & Outline</strong>
-<ul>
 
-<li>Research and compare existing solutions and models
+   <td>Day 1: Research & Outline
 
-<li>Define success and criteria
 
-<li>Outline problem definition, objectives, target user & use case, scope, limitations, assumptions, timeline
-</li>
-</ul>
-   </td>
-   <td><strong>Day 8: Develop frontend</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 2: Plan & Diagrams</strong>
-<ul>
 
-<li>Research and compare technologies
+*   Research and compare existing solutions and models
+*   Define success and criteria
+*   Outline problem definition, objectives, target user & use case, scope, limitations, assumptions, timeline
+   </td>
+   <td>
+Day 5: Develop Frontend and Connect to Backend
 
-<li>Create plan of execution and timeline
 
-<li>Create software architecture, UML diagrams, GUI diagram,
-</li>
-</ul>
-   </td>
-   <td><strong>Day 9: Develop frontend</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 3: Clean dataset</strong>
-   </td>
-   <td><strong>Day 10: Unit Test, Integration Tests, & Debug</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 4: Develop database</strong>
-   </td>
-   <td><strong>Day 11: Unit Test, Integration Tests, & Debug</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 5: Develop model</strong>
-   </td>
-   <td><strong>Day 12: Deploy</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 6: Develop and train model</strong>
-   </td>
-   <td><strong>Day 13: Documentation</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Day 7: Productionize with API endpoint</strong>
-<ul>
 
-<li>
-</li>
-</ul>
+*   Create a react app
+*   Basic styling forms and cards bootstrap
+*   Connect the front and backend (send input from forms to api, get back a response, and display on website)
    </td>
-   <td><strong>Day 14: Documentation</strong>
-<ul>
+   <td>
+Day 2: Plan & Diagrams
 
-<li>Complete documentation
-</li>
-</ul>
+
+
+*   Research and compare technologies
+*   Create plan of execution and timeline
+*   Create software architecture, UML diagrams, GUI diagram,
    </td>
-  </tr>
-</table>
+   <td>
+Day 5: Develop Frontend and Connect to Backend
+
+
+
+*   Connect the front and backend (send input from forms to api, get back a response, and display on website)
+*   Change output, if the response if above 0.5 round up -> 1 = success, else unsuccessful
+   </td>
+   <td>
+Day 3: Clean Dataset & Develop Model
+
+
+
+*   Remove NA cells
+*   Select relevant columns
+*   Create success column
+*   Trains test split
+*   Train and test model
+*   Pickle the model
+   </td>
+   <td>
+Day 7: Test, Debug & Deploy API to Heroku & Website to Netlify
+
+
+
+*   Test program in website using inspect tool to see if response is correct
+*   Deploy API to Heroku
+*   Create a separate website repo
+*   Deploy API to Netlify 
+   </td>
+   <td>
+Day 4: Develop Flask API
+
+
+
+*   Create the predict, load_model, and hello functions in app.py
+*   Test on local host
+   </td>
+   <td>
+   </td>
