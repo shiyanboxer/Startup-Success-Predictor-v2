@@ -1,29 +1,40 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import axios from "axios"
 import './App.css';
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
-import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from 'mdbreact';
+import {MDBContainer, MDBRow, MDBCol, MDBBtn} from 'mdbreact';
+import {MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText} from 'mdbreact';
 
 
 class Forms extends Component {
-    handler(e) {
-        e.preventDefault()
+
+    // Handler function that gets form input by ID and assigns it to variables, makes sure input is valid, send request and receives a response that's displayed onscreen  
+    handler() {
         const total_funding = document.getElementById("total_funding").value
         const founded_year = document.getElementById("founded_year").value
-
+        
+        // User must input values in both fields before submitting or a message will pop up 
         if (total_funding === "" || founded_year === "") {
             alert("Please enter details")
             return
         }
 
+        // Send requests to API ("data", a dictionary which contain user's total_funding and founding year)
         axios({
             method: "POST",
+            // Run locally http://127.0.0.1:5000/predict
             url: "https://startup-success-predictor-api.herokuapp.com/predict",
-            data: { "total_funding": total_funding, "founded_year": founded_year }
+            data: {"total_funding": total_funding, "founded_year": founded_year}
+        
+        //  Receive a response either 0 or 1 and display the results on screen 
         }).then((response) => {
             const output = response.data
-            if (output.response === 1) { document.getElementById("target").innerHTML = "This company will be ... SUCCESSFUL" }
-            else { document.getElementById("target").innerHTML = "This company will be ... UNSUCCESSFUL" }
+            // If response is 1, print SUCCESSFUL, else print UNSUCCESSFUL
+            if (output.response === 1) {
+                // The id "taget" is in the Cards component, which is where the results will be shown 
+                document.getElementById("target").innerHTML = "This company will be ... SUCCESSFUL"
+            } else {
+                document.getElementById("target").innerHTML = "This company will be ... UNSUCCESSFUL"
+            }
         })
     }
 
@@ -36,27 +47,30 @@ class Forms extends Component {
                             <p className="h4 text-center mb-4">Enter company info</p>
                             <label className="grey-text">
                                 Total Funding
-                    </label>
-                            <input type="number" id="total_funding" placeholder={"Eg. 1500"} className="form-control" />
-                            <br />
+                            </label>
+                            {/* Get info by id */}
+                            <input type="number" id="total_funding" placeholder={"Eg. 1500"} className="form-control"/>
+                            <br/>
                             <label className="grey-text">
                                 Founding Year
-                    </label>
-                            <input type="number" id="founded_year" placeholder={"Eg. 2000"} className="form-control" />
-                            <br />
+                            </label>
+                            <input type="number" id="founded_year" placeholder={"Eg. 2000"} className="form-control"/>
+                            <br/>
 
                             <div className="text-center mt-4">
                                 <MDBBtn color="unique" onClick={this.handler}>
                                     Enter details
-                    </MDBBtn>
+                                </MDBBtn>
                             </div>
                         </form>
                     </MDBCol>
                     <MDBCol md="6">
-                        <MDBCard style={{ width: "22rem" }}>
-                            <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+                        <MDBCard style={{width: "22rem"}}>
+                            <MDBCardImage className="img-fluid"
+                                          src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves/>
                             <MDBCardBody>
                                 <MDBCardTitle>Card title</MDBCardTitle>
+                                {/* Display results in Card */}
                                 <MDBCardText id="target">
                                 </MDBCardText>
                             </MDBCardBody>
@@ -67,4 +81,5 @@ class Forms extends Component {
         );
     }
 }
+
 export default Forms;
