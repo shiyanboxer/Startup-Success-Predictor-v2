@@ -27,10 +27,6 @@ EXAMPLE RESPONSE
 }
 ```
 
-## **Interaction between Client and API**
-
-![Interaction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
-
 ## **Pickling**
 
 ![Picking](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/python_pickle.png)
