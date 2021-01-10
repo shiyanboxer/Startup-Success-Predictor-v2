@@ -1,7 +1,7 @@
 # Startup-Success-Predictor-v2
 
 ### By: Shiyan Boxer
-### Last Updated: January 2nd, 2021
+### Last Updated: January 17th, 2021
 
 - ### [Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
   - [1 Project Overview](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/1_Project_Overview.md)
