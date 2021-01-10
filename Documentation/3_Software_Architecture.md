@@ -1,11 +1,8 @@
 # 3. **Software Architecture**
 
-## **Software Architecture**
-![Software Architecture]()
-
 ## **Control Flow Diagram**
 
-![alt_text](images/image1.png "image_tooltip")
+![Control Flow Diagram](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/FrontBack.png)
 
 ## **Input and Output**
 

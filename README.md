@@ -14,7 +14,8 @@
 - ### [Website Link](https://startup-success-predictor.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d94e1949-ad8e-456b-a2b0-7049dc10ea58/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
-### Demo
+
+### **Demo**
 
 ### **Quickstart**
 ```
@@ -43,12 +44,6 @@ This web application leverages data science, machine learning, and business prin
 - **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** to build the API
   - **[Guicorn server](https://gunicorn.org/)**
 - **[MongoDB](https://www.mongodb.com/2)** to build the database
-
-### **Learnings**
-
-### **Challenges**
-
-### **What I Would Do Differently**
 
 ### **Next Steps**
 The following is a list of features that are out of scope for this project but would be worthwhile exploring in future iterations. These features would provide a more comprehensive and desirable user experience.
