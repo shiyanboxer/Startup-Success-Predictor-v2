@@ -26,7 +26,7 @@ The following technologies were carefully chosen to ensure the design goals list
   - **[Pickle](https://docs.python.org/3/library/pickle.html)**
 - **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** to build the API
   - **[Guicorn server](https://gunicorn.org/)**
-- [Postman](https://www.postman.com/) and [CircleCI](https://circleci.com/) for testing
+- [Postman](https://www.postman.com/) and [CircleCI]() for testing
 
 ### **Frontend Framework**
 <table>
