@@ -52,3 +52,4 @@ The following is a list of features that are out of scope for this project but w
 - Add additional parameters such as country, number of rounds raised, number of founders
 - Explore and compare other models such as random forest
 - Explore other methods of validating the results of the model such as MSE and MAE
+- Add a database to store company info that can be updated by Crunchbase or VCs
