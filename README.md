@@ -10,7 +10,7 @@
   - [4 Steps](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/4_Steps.md)
   - [5 Test, Contribute, Version, and Learning Resources](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/5_Test_Contribute_Version.md)
 
-- ### [Heroku API Link](https://startup-success-predictor-api.herokuapp.com)
+- ### [Heroku API Link](https://startup-success-predictor-api.herokuapp.com/)
 - ### [Website Link](https://startup-success-predictor.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d94e1949-ad8e-456b-a2b0-7049dc10ea58/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
