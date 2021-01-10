@@ -26,6 +26,8 @@ The following technologies were carefully chosen to ensure the design goals list
   - **[Pickle](https://docs.python.org/3/library/pickle.html)**
 - **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** to build the API
   - **[Guicorn server](https://gunicorn.org/)**
+  - **CORS** to run seprate local hosts
+  - **JSON** to load and dump data
 - **[MongoDB](https://www.mongodb.com/2)** to build the database
 - **[Postman](https://www.postman.com/)** and **[CircleCI](https://circleci.com/)** for testing
 - **[Netlify](https://www.netlify.com/)** and **[Heroku](https://dashboard.heroku.com/)** to deploy the React App and Flask API
