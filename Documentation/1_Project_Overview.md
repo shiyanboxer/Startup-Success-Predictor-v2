@@ -28,16 +28,18 @@ The following technologies were carefully chosen to ensure the design goals list
   - **[Guicorn server](https://gunicorn.org/)**
 - [Postman](https://www.postman.com/) and [CircleCI]() for testing
 
-### **Frontend Framework**
+
+### **[Frontend Framework](https://www.codeinwp.com/blog/angular-vs-vue-vs-react/)**
+
 <table>
   <tr>
    <td><strong>Criteria</strong>
    </td>
-   <td><strong>Vue</strong>
+   <td><strong>Vue </strong>- Good choice if you prefer simplicity, but also like flexibility but not widely used at companies. 
    </td>
-   <td><strong>React</strong>
+   <td><strong>React - </strong>Good choice for getting started with front-end JavaScript frameworks, startups and developers who like some flexibility. The ability to integrate with other frameworks seamlessly gives it a great advantage for those who would like some flexibility in their code.
    </td>
-   <td><strong>Angular</strong>
+   <td><strong>Angular - </strong>Good choice for companies with large teams and developers who already use TypeScript.
    </td>
   </tr>
   <tr>
@@ -46,51 +48,114 @@ The following technologies were carefully chosen to ensure the design goals list
    <td>
 <ul>
 
-<li>
+<li>UI and behavior are a part of components, which makes things more intuitive. 
+
+<li>Vue provides higher customizability and hence is easier to learn than Angular or React
 </li>
 </ul>
    </td>
    <td>
 <ul>
 
-<li>Good community support
+<li>React, the same part of the code is responsible for creating a UI element and dictating its behavior.
+
+<li>React offers a Getting Started guide that should help one set up React in about an hour. The documentation is thorough and complete, with solutions to common issues already present on Stack Overflow.
 </li>
 </ul>
    </td>
    <td>
+<ul>
+
+<li>Angular separates the UI part of components as attributes of HTML tags, and their behaviors in the form of JavaScript code.
+
+<li>Angular has a steep learning curve, considering it is a complete solution, and mastering Angular requires you to learn associated concepts like TypeScript and MVC
+</li>
+</ul>
    </td>
   </tr>
   <tr>
-   <td><strong>Scalability</strong>
+   <td><strong>Scalability and Reliability</strong>
    </td>
    <td>
+<ul>
+
+<li>Least stable in terms of versioning 
+
+<li>Driven by community support
+
+<li>Increasing in popularity
+
+<li>Vue has an overlap with Angular and React with respect to their functionality like the use of components. Hence, the transition to Vue from either of the two is an easy option. However, simplicity and flexibility of Vue is a double-edged sword — it allows poor code, making it difficult to debug and test.
+</li>
+</ul>
    </td>
    <td>
+<ul>
+
+<li>Most stable in terms of versioning 
+
+<li>Driven by Facebook support
+
+<li>Popular framework
+
+<li>React is not a complete framework and advanced features require the use of third-party libraries. This makes the learning curve of the core framework not so steep but depends on the path you take with additional functionality. 
+</li>
+</ul>
    </td>
    <td>
+<ul>
+
+<li>Driven by Google support
+
+<li>Angular is the most mature of the frameworks, has good backing in terms of contributors and is a complete package.
+</li>
+</ul>
    </td>
   </tr>
   <tr>
-   <td>
+   <td><strong>Interest and Familiarity </strong>
    </td>
    <td>
+<ul>
+
+<li>Not the most desired skill in the job market
+
+<li>No experience 
+</li>
+</ul>
    </td>
    <td>
+<ul>
+
+<li>Desired skill in job market
+
+<li>Prior experience 
+</li>
+</ul>
    </td>
    <td>
+<ul>
+
+<li>Desired skill in job market
+
+<li>No experience 
+</li>
+</ul>
    </td>
   </tr>
 </table>
 
-### **Database** 
+
+
+### **[Database](https://blog.panoply.io/mongodb-and-mysql)**
 
 <table>
   <tr>
    <td><strong>Criteria</strong>
    </td>
-   <td><strong>MongoDB</strong>
+   <td><strong>MongoDB - </strong>Flexible data schema, good for unstructured data and scalability 
    </td>
-   <td><strong>MySQL</strong>
+   <td><strong>MySQL - Good for structured data and traditions need for  relational database </strong>
    </td>
    <td><strong>Excel</strong>
    </td>
@@ -101,6 +166,263 @@ The following technologies were carefully chosen to ensure the design goals list
    <td>
 <ul>
 
+<li>MongoDB is a NoSQL database that stores data as JSON-like documents. Documents store related information together and use the MongoDB query language (MQL) for access. Fields can vary from document to document - there is no need to declare the structure of documents to the system, as documents are self-describing. 
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>MySQL is a relational database management system (RDBMS) from the Oracle Corporation. Like other relational systems, MySQL stores data in tables and uses structured query language (SQL) for database access.
+
+<li>More established: developers, community, code, tools, etc
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Easy to view data
+
+<li>Requires lost of work to format and manipulate data 
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Scalability and Reliability</strong>
+   </td>
+   <td>
+<ul>
+
+<li>If an index is not found, every document within a collection must be scanned to select the documents that provide a match to the query statement.
+
+<li>Replication of data using nodes that hold the same data set are called replica sets. Replica sets enable high availability of data, with developers able to fine-tune their consistency requirements for even greater performance and availability.
+
+<li>Working with data as flexible JSON documents, rather than as rigid rows and columns, is proven to help developers move faster
+
+<li>Sharding allows for horizontal scaling (additional resources into your system by adding more machines to your network), which is difficult to implement in MySQL.
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Lookups by index are very fast
+
+<li>If an index is not defined, the database engine must scan the entire table to find all relevant rows.
+
+<li>MySQL supports master – slave replication and master – master replication. Multisource replication allows you to replicate from several masters in parallel (vertical scaling - adding more power to your existing machine)
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Not very scalable data stays static
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Interest and Familiarity</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Some experience
+
+<li>Desired skill in job market
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Some experience
+
+<li>Desired skill in job market 
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Experience manipulating data in Excel
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+
+### **[Backend](https://www.tutorialspoint.com/cplusplus-vs-java-vs-python)**
+
+<table>
+  <tr>
+   <td><strong>Criteria</strong>
+   </td>
+   <td><strong>C</strong>
+   </td>
+   <td><strong>Python</strong>
+   </td>
+   <td><strong>Java</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Usability</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Compiled Programming Language
+
+<li>More complex syntax
+
+<li>Strongly typed, need to define the exact datatype of variables
+
+<li>Use of pointers, structures, union
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Python is an interpreted programming language
+
+<li>Good community support
+
+<li>requests
+
+<li>
+
+<li>Easy syntax
+
+<li>Dynamic, no need to define the exact datatype of variables.
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Java is both compiled and interpreted language, which is first compiled and then interpreted into a byte code
+
+<li>More complex syntax
+
+<li>Strongly typed, need to define the exact datatype of variables
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Scalability and Reliability</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Comparatively available with low level functionalities
+
+<li>Platform dependent, must be recompiled for different platform
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Expected to run slower than Java programs
+
+<li>Useful libraries for data manipulation and modelling
+
+<li>Most commonly used for stats and AI/ML
+
+<li>Offers API frameworks 
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Java is much faster than python in terms of speed.
+
+<li>Platform independent, byte code generated works on every OS.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Interest and Familiarity</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Experience through school 
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Lots of experience
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Some experience through school 
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+### **[Python Web Frameworks for API](https://testdriven.io/blog/django-vs-flask/)**
+
+<table>
+  <tr>
+   <td><strong>Criteria</strong>
+   </td>
+   <td><strong>Django</strong>
+   </td>
+   <td><strong>Flask</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Usability</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Django provides this functionality along with account management and support for sessions (via the User model) out-of-the-box.
+
+<li>Django includes a simple yet powerful ORM (Object Relational Mapping) that supports a number of relational databases out-of-the-box -- SQLite, PostgreSQL, MySQL, and Oracle. 
+</li>
+</ul>
+   </td>
+   <td>
+<ul>
+
+<li>Easier to get started with as it’s a simpler framework
+
+<li>Flask, by design, is much more flexible than Django, and it's meant to be extended.
+
+<li>Flask provides support for cookie-based sessions, but you'll have to turn to the extension network for account management, authentication, and authorization.
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Scalability and Reliability</strong>
+   </td>
+   <td>
+<ul>
+
+<li>Django embraces stability and comes with a number of tools, patterns, features, and functionality
+
+<li>In terms of stability, Django generally has longer, more rigid release cycles.
+
 <li>
 </li>
 </ul>
@@ -108,34 +430,33 @@ The following technologies were carefully chosen to ensure the design goals list
    <td>
 <ul>
 
-<li>Good community support
+<li>Flask handles the core scaffolding well like URL routing, request and error handling, templating, cookies, support for unit testing, a debugger, and a development server. 
+
+<li>Since most web applications need more features, you get to decide how you want to build your application. 
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Interest and Familiarity</strong>
+   </td>
+   <td>
+<ul>
+
+<li>No experience
 </li>
 </ul>
    </td>
    <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Scalability</strong>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
+<ul>
+
+<li>Some experience at work
+</li>
+</ul>
    </td>
   </tr>
 </table>
+
 
 ## **Target User & Use Case**
 The target user for the web application is a venture capitalist who is knowledgeable about the company and industry in question. This program would be used as an internal tool within the firm to help guide VCs on their investment decisions.

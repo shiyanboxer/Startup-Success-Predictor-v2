@@ -1,4 +1,4 @@
-# Startup-Success-Predictor-v2
+# Startup Success Predictor v2
 
 ### By: Shiyan Boxer
 ### Last Updated: January 17th, 2021
@@ -44,6 +44,8 @@ This web application leverages data science, machine learning, and business prin
 - **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** to build the API
   - **[Guicorn server](https://gunicorn.org/)**
 - **[MongoDB](https://www.mongodb.com/2)** to build the database
+- **[Netlify](https://www.netlify.com/)** and **[Heroku](https://dashboard.heroku.com/)** to deploy the React App and Flask API
+
 
 ### **Next Steps**
 The following is a list of features that are out of scope for this project but would be worthwhile exploring in future iterations. These features would provide a more comprehensive and desirable user experience.
