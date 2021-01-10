@@ -48,13 +48,14 @@ This web application leverages data science, machine learning, and business prin
   - **[Axios](https://www.npmjs.com/package/axios)**
   - MDBReact **[Cards](https://mdbootstrap.com/docs/react/components/cards/)** and **[Forms](https://mdbootstrap.com/docs/react/forms/basic/)**
 - **[Python 3.7](https://www.python.org/downloads/release/python-370/)** in **[Jupyter Notebook](https://jupyter.org/)** to build the model and clean
-  - **[CSV](https://docs.python.org/3/library/csv.html)**
-  - **[Sklean](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)**
-  - **[Numpy](https://numpy.org/doc/stable/reference/generated/numpy.array.html)**
-  - **[Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)**
-  - **[Pickle](https://docs.python.org/3/library/pickle.html)**
+  - **[Sklean](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)** to fit, split, and test the model 
+  - **[Numpy](https://numpy.org/doc/stable/reference/generated/numpy.array.html)** to round result values
+  - **[Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)** to manipulate the dataset
+  - **[Pickle](https://docs.python.org/3/library/pickle.html)** to transfer the model
 - **[Flask](https://flask.palletsprojects.com/en/1.1.x/)** to build the API
   - **[Guicorn server](https://gunicorn.org/)**
+  - **CORS** to run seprate local hosts
+  - **JSON** to load and dump data
 - **[MongoDB](https://www.mongodb.com/2)** to build the database
 - **[Postman](https://www.postman.com/)** and **[CircleCI](https://circleci.com/)** for testing
 - **[Netlify](https://www.netlify.com/)** and **[Heroku](https://dashboard.heroku.com/)** to deploy the React App and Flask API
