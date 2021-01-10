@@ -20,6 +20,10 @@ def load_models():
         model = data['model']
     return model
 
+@app.route('/', methods=['GET'])
+def hello():
+    return "hello world"
+
 @app.route('/predict', methods=['POST'])
 def predict():
     
