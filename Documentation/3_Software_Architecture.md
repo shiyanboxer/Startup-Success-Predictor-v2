@@ -2,7 +2,7 @@
 
 ## **Control Flow Diagram**
 
-![Control Flow Diagram](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/FrontBack.png)
+![Control Flow Diagram](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/FrontBack.jpg)
 
 ## **Input and Output**
 
