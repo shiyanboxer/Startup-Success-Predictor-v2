@@ -3,7 +3,7 @@
 ### By: Shiyan Boxer
 ### Last Updated: January 2nd, 2021
 
-- #### [Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
+- ### [Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
   - [1 Project Overview](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/1_Project_Overview.md)
   - [2 Background Knowledge](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/2_Background_Knowledge.md)
   - [3 Software Architecture](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/3_Software_Architecture.md)
