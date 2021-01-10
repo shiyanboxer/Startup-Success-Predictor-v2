@@ -1,4 +1,4 @@
-# 2. Background Knowledge
+# 2. **Background Knowledge**
 
 ## Dataset
 The [Crunchbase dataset](https://www.kaggle.com/arindam235/startup-investments-crunchbase/data) consists of 39 categories with 5000 companies recorded up until 2015. "Founding year" and "Total funding" were chosen as the X coordinates (input parameters) and "Success" was chosen as the Y coordinate (prediction). Data were split up into 80% training and 20% testing.

@@ -1,31 +1,19 @@
-# 3. Software Architecture
+# 3. **Software Architecture**
 
-### **UML Diagram**
+## **Software Architecture**
+![Software Architecture]()
+
+## **Control Flow Diagram**
 
 ![alt_text](images/image1.png "image_tooltip")
 
-### **Control Flow Diagram**
-
-![alt_text](images/image1.png "image_tooltip")
-
-### Input and Output
+## **Input and Output**
 
 The user inputs total funding and founding year and receives an output of 0 or 1. 
 
 ![Input and Output](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/InOut.jpg)
 
-### API Endpoint
-GET https://startup-success-predictor-api.herokuapp.com/
-
-FUNCTION: hello
-
-EXAMPLE RESPONSE
-
-```
-{
-    "hello world"
-}
-```
+## **API Endpoint**
 
 POST https://startup-success-predictor-api.herokuapp.com/predict
 
@@ -39,19 +27,19 @@ EXAMPLE RESPONSE
 }
 ```
 
-### Ineraction between Client and API
+## **Interaction between Client and API**
 
-![Ineraction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
+![Interaction between Client and API](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
 
-### Pickling
+## **Pickling**
 
 ![Picking](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/python_pickle.png)
 
-### Productionizing the Model with Flask and Heroku
+## **Productionizing the Model with Flask and Heroku**
 
 ![Productionizing the Model with Flask and Heroku](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Software%20Architecture.png)
 
-### Website Sketch
+## **UI Sketch**
 
 This is a rough sketch of the frontend. 
 

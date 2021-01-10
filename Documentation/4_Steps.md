@@ -1,6 +1,6 @@
-# 4. Steps
+# 4. **Steps**
 
-### Clean
+## **Clean**
 
 The first step was to clean the dataset so it could be used by the model. This code can be found in the Clean folder of the repository. I made the following changes:
 
@@ -14,15 +14,15 @@ Dependencies for this step include:
 *   csv
 
 
-##### Before Investment CSV
+#### **Before Investment CSV**
 
 ![alt_text](images/image11.png "image_tooltip")
 
-##### After Investment CSV
+#### **After Investment CSV**
 
 ![alt_text](images/image12.png "image_tooltip")
 
-### Model
+## **Model**
 
 The model was built by doing the following:
 
@@ -30,8 +30,7 @@ The model was built by doing the following:
 2. Get dummy data
 3. Split training and testing data
 4. Multiple linear regression
-5. Tune model with GridsearchCV
-6. Test ensembles
+6. Test accuracy
 
 Dependencies for this step include:
 *   pandas
@@ -44,30 +43,23 @@ Dependencies for this step include:
 *   [sklearn mean_absolute_error](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html)
 
 
-##### Choosing relevant columns
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+#### **Choosing relevant columns**
 
 ![alt_text](images/image13.png "image_tooltip")
 
-
-##### Training set
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+#### **Training set**
 
 ![alt_text](images/image14.png "image_tooltip")
 
 
-### API
+## **API**
 
 In this step, I built a flask API endpoint that was hosted on a local webserver. 
 
-1. **Pickle the model. **This converts the object into a byte stream which can be stored, transferred, and converted back to the original model at a later time. Pickles are one of the ways python lets you save just about any object out of the box.
-2. **Build Flask API**
+1. **Pickle the model.** This converts the object into a byte stream which can be stored, transferred, and converted back to the original model at a later time. Pickles are one of the ways python lets you save just about any object out of the box.
+2. **Build Flask API.** This allows other users and our frontend to send requests and receive a response (prediction).
 
-
-### Deploy API
+### **Deploy API**
 
 I deployed the API to Heroku. 
 
@@ -76,9 +68,14 @@ I deployed the API to Heroku.
 3. Get link to send API requests [https://startup-success-predictor-api.herokuapp.com/](https://startup-success-predictor-api.herokuapp.com/)
 
 
-### Frontend
+## **Frontend**
 
-I created a simple website using react
+I created a simple website using React to interact with the API.
 
-1. Make request to API curl -X GET https://flask-ml-api-123.herokuapp.com/predict -H “Content-Type: application/json” -d '{"input”:”9"}'
-2. Deploy website to Netlify
+1. Make request to API curl -X GET https://flask-ml-api-123.herokuapp.com/predict
+2. Connect API to frontend forms component 
+3. Deploy website to Netlify
+
+### **Deploy Frontend**
+
+1. I connect frontend folder repo Netlify and deploy. 
