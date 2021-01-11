@@ -1,17 +1,16 @@
 # Startup Success Predictor v2
 
-### By: Shiyan Boxer
-### Last Updated: January 17th, 2021
+- **By: Shiyan Boxer**
+- **Last Updated: January 17th, 2021**
+- **[Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)**
+  - **[1 Project Overview](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/1_Project_Overview.md)**
+  - **[2 Background Knowledge](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/2_Background_Knowledge.md)**
+  - **[3 Software Architecture](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/3_Software_Architecture.md)**
+  - **[4 Steps](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/4_Steps.md)**
+  - **[5 Test, Contribute, Version, and Learning Resources](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/5_Test_Contribute_Version.md)**
 
-- ### [Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)
-  - [1 Project Overview](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/1_Project_Overview.md)
-  - [2 Background Knowledge](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/2_Background_Knowledge.md)
-  - [3 Software Architecture](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/3_Software_Architecture.md)
-  - [4 Steps](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/4_Steps.md)
-  - [5 Test, Contribute, Version, and Learning Resources](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/5_Test_Contribute_Version.md)
-
-- ### [Heroku API Link](https://startup-success-predictor-api.herokuapp.com/)
-- ### [Website Link](https://startup-success-predictor.netlify.app/)
+- **[Heroku API Link](https://startup-success-predictor-api.herokuapp.com/)**
+- **[Website Link](https://startup-success-predictor.netlify.app/)**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d94e1949-ad8e-456b-a2b0-7049dc10ea58/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
