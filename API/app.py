@@ -2,6 +2,7 @@ import flask
 from flask import Flask, jsonify, request
 import pickle
 import json
+import sklearn as sklearn
 import numpy as np
 from flask_cors import CORS
 
