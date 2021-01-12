@@ -5,22 +5,11 @@
 The first step was to clean the dataset so it could be used by the model. This code can be found in the Clean folder of the repository. I made the following changes:
 
 1. Create a new excel sheet that will have changes “after.xlsx”
-2. Remove companies with blank cells in funding_total_usd, status, country_code, founded_year and remove total funding with NA
+2. Remove companies with NA from dataset
 3. Make new column for company “success” (0 = “operating or “acquired” and 1 = “closed”)
 
 Dependencies for this step include:
 *   pandas
-*   os
-*   csv
-
-
-#### **Before Investment CSV**
-
-![alt_text](images/image11.png "image_tooltip")
-
-#### **After Investment CSV**
-
-![alt_text](images/image12.png "image_tooltip")
 
 ## **Model**
 
@@ -34,23 +23,13 @@ The model was built by doing the following:
 
 Dependencies for this step include:
 *   pandas
-*   os
+*   sklearn
 *   numpy 
 *   pickle
 *   [sklearn train test split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 *   [sklearn RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 *   [sklearn GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 *   [sklearn mean_absolute_error](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html)
-
-
-#### **Choosing relevant columns**
-
-![alt_text](images/image13.png "image_tooltip")
-
-#### **Training set**
-
-![alt_text](images/image14.png "image_tooltip")
-
 
 ## **API**
 
