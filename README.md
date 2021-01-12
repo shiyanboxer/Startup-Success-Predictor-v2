@@ -17,20 +17,16 @@
 ### **Demo**
 
 ### **Quickstart**
+**Frontend**
 ```
 npm install
-pip install -r requirements.txt
-```
-
-### [Getting Started Locally](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/)
-```
-cd C:\Users\shiya\Documents\FF\Startup-Success-Predictor-v2\API
-conda activate flask_env
-python app.py
-curl -X GET http://127.0.0.1:5000/predict
-
-cd 
 npm start
+```
+
+**Backend**
+```
+pip install -r requirements.txt
+python app.py
 ```
 
 ### **About**
