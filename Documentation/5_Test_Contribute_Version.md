@@ -1,28 +1,68 @@
-# 5. **Testing, Contributing, Versioning, & Learning Resources**
-
 ## **Testing**
-The application was thoroughly tested using CirclCI, Postman, and Google Console, and React App frontend to ensure no errors before a branch was merged to master. This ensured the build isn't broken by changes in code logic.
+
+The application is thoroughly tested using Jest and Supertest.
+
+CodeCov is used to validate the 92% code coverage, and CirclCI is used to run all tests before a branch is merged to
+master.
+
+This ensures the build isn't broken by changes in code logic.
+
+How the tests work An in-memory MongoDB database is built when Jest starts up, the database is seeded before every test,
+and the database is destroyed when all tests are completed.
+
+Running the tests npm install Ensure that all packages are installed
+
+npm test OR npm run test:watch Run all suites of tests
+
+npm run test:watch runs Jest in watch mode, where individual tests can be viewed. Type in p to filter tests by filename
+regex, then v2 and press Enter to view the tests for version 2 of the API.
+
+## **Next Steps**
+
+The following is a list of features that are out of scope for this project but would be worthwhile exploring in future
+iterations. These features would provide a more comprehensive and desirable user experience.
+
+- Create and connect a database, instead of using an excel sheet to hold company info
+- Train and test on multiple datasets, not
+  just [Crunchbase](https://www.kaggle.com/arindam235/startup-investments-crunchbase/data)
+- Add additional parameters such as country, number of rounds raised, number of founders
+- Explore and compare other models such as random forest
+- Explore other methods of validating the results of the model such as MSE and MAE
 
 ## **Contributing**
-1. Submit an issue (feature request or bug)
-2. Create a branch: git checkout -b feature/feature-implementing
-3. Commit changes to the branch: git add . && git commit -m "Present tense commit message"
-4. Push the changes: git push -u origin feature/feature-implementing
-5. Submit a pull request
 
-## **Versioning**
-As of January 17th, 2021, there is only 1 version of the API available for use.
+Submit an issue (feature request or bug)
+Create a branch: git checkout -b feature/feature-implementing Commit changes to the branch: git add . && git commit -m "
+Present tense commit message"
+Push the changes: git push -u origin feature/feature-implementing Submit a pull request Versioning There are 2 versions
+of the API available for use: Version 1 and Version 2.
 
-### Version 1
-**Requirements**
-- Enter numbers (type float) into the "Total Funding" and "Founding Year" box
-- Press "Enter Details" to see results
+Version 1 (soon to be deprecated)
+Requirements Build a server side web api that can be used to fetch products either one at a time or all at once. Every
+product should have a title, price, and inventory_count. Querying for all products should support passing an argument to
+only return products with available inventory. Products should be able to be "purchased" which should reduce the
+inventory by 1. Products with no inventory cannot be purchased. Endpoints GET /api/v1/products
 
-**Endpoints**
-- POST https://startup-success-predictor-api.herokuapp.com/predict
+View all products in the store.
 
-## **Learning Resources**
+Optional Parameter: ?stocked=true
+
+GET /api/v1/products/{sku}
+
+View an individual product by SKU.
+
+PATCH /api/v1/products/{sku}
+
+Purchase an individual product by SKU.
+
+Version 2 Requirements Fit these product purchases into the context of a simple shopping cart. The cart should contain a
+list of all included products, a total dollar amount (the total value of all products)
+Product inventory shouldn't reduce until after a cart has been completed. Endpoints See documentation
+
+### **Resources**
+
 **VC**
+
 - [How Other VC Firms are Looking at Data](https://medium.com/hackernoon/winning-by-eating-their-own-dogs-food-83-venture-capital-firms-using-data-ai-proprietary-da92b81b85ef)
 - [Sample Project](https://github.com/PlayingNumbers/ds_salary_proj)
 - [Raise of AI in VC](https://outsideinsight.com/insights/the-growing-focus-on-artificial-intelligence-in-venture-capital/)
@@ -30,14 +70,18 @@ As of January 17th, 2021, there is only 1 version of the API available for use.
 - [Structure your data science project](https://www.youtube.com/watch?v=MpF9HENQjDo)
 
 **Model**
+
 - [Training a classifier with Pytorch](https://www.kaggle.com/danieldagnino/training-a-classifier-with-pytorch)
 - [Types of Models](https://www.logianalytics.com/predictive-analytics/predictive-algorithms-and-models/)
 
 **API**
+
 - [Productionize a Machine Learning model with Flask and Heroku](https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2)
 
 **Frontend**
+
 - [Create react single-page app](https://reactjs.org/docs/create-a-new-react-app.html)
 
 **Database**
+
 - [MongoDB vs MySQL](https://www.mongodb.com/compare/mongodb-mysql#:~:text=MySQL%20is%20a%20relational%20database,(SQL)%20for%20database%20access.&text=MongoDB%20is%20a%20NoSQL%20database,data%20as%20JSON%2Dlike%20documents)
