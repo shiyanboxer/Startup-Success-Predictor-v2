@@ -9,7 +9,7 @@
 - #### [Website Repository](https://github.com/shiyanboxer/Startup-Success-Predictor-Site/tree/master/my-app)
 - #### [Website Link](https://startup-success-predictor.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/586844c1-91fa-46d5-a162-364a75f6697b/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d94e1949-ad8e-456b-a2b0-7049dc10ea58/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
 ![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)
 
