@@ -13,6 +13,8 @@ Werkzeug==1.0.1
 wincertstore==0.2
 scipy==1.2.1
 joblib==0.15.1
+
+
 alabaster==0.7.12
 anaconda-client==1.7.2
 anaconda-navigator==1.9.12
@@ -58,7 +60,6 @@ distributed==1.26.0
 docutils==0.14
 entrypoints==0.3
 et-xmlfile==1.0.1
-## !! Could not determine repository location
 facebook-sdk==0.4.0
 fastcache==1.0.2
 filelock==3.0.10
