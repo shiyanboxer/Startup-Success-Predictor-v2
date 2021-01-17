@@ -1,4 +1,4 @@
-# Startup-Success-Predictor-v2
+# Startup Success Predictor v2
 
 ### By: Shiyan Boxer
 
