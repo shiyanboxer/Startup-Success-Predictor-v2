@@ -5,6 +5,11 @@ import {MDBContainer, MDBRow, MDBCol, MDBBtn} from 'mdbreact';
 import {MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText} from 'mdbreact';
 
 
+// TODO: 
+// - Do not use document.getElementById
+// - Move the api url to be an environment variable, rather then hard coding it
+// https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa
+
 class Forms extends Component {
 
     // Handler function that gets form input by ID and assigns it to variables, makes sure input is valid, send request and receives a response that's displayed onscreen  
@@ -24,6 +29,7 @@ class Forms extends Component {
             // Run locally http://127.0.0.1:5000/predict
             // Run via Heroku https://startup-success-predictor-api.herokuapp.com/predict
             // url: "http://127.0.0.1:5000/predict", 
+            // url: "process.env.REACT_APP_PREDICT",
             url: "https://startup-success-predictor-api.herokuapp.com/predict",
             data: {"total_funding": total_funding, "founded_year": founded_year}
         
