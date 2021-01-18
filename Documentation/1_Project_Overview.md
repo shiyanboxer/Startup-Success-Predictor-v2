@@ -170,6 +170,9 @@ The following technologies were carefully chosen to ensure the design goals list
 
 <li>MongoDB is a NoSQL database that stores data as JSON-like documents. Documents store related information together and use the MongoDB query language (MQL) for access. Fields can vary from document to document - there is no need to declare the structure of documents to the system, as documents are self-describing. 
 </li>
+
+<li>MongoDB schemas are unstructured which make it harder to ensure that every document in a collection has the same scheme, this problem is usually solved with some sort of interface (i.e mongoose), MySQL doesn’t have this problem.
+</li>
 </ul>
    </td>
    <td>
