@@ -9,6 +9,7 @@ import {MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText} from 'mdb
 // - Do not use document.getElementById
 // - Move the api url to be an environment variable, rather then hard coding it
 // https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa
+// Use react hooks https://gist.github.com/kirkbyo/27cd20a0ed3bc139ff36457d4c7797f0
 
 class Forms extends Component {
 
