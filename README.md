@@ -1,9 +1,7 @@
 # Startup Success Predictor v2
 
-### By: Shiyan Boxer
-
-### Last Updated: January 2nd, 2021
-
+- **By: Shiyan Boxer**
+- **Last Updated: January 2nd, 2021**
 - **[Website Link](https://startup-success-predictor.netlify.app/)**
 - **[Heroku API Link](https://startup-success-predictor-api.herokuapp.com)**
 - **[Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)**
