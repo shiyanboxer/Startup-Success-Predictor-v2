@@ -1,5 +1,9 @@
 # 3. **Software Architecture**
 
+## **Software Architecture**
+
+![Software Architecture](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/SoftwareArch.jpg)
+
 ## **Control Flow Diagram**
 
 ![Control Flow Diagram](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/FrontBack.jpg)
