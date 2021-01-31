@@ -29,9 +29,8 @@ class Forms extends Component {
             method: "POST",
             // Run locally http://127.0.0.1:5000/predict
             // Run via Heroku https://startup-success-predictor-api.herokuapp.com/predict
-            // url: "http://127.0.0.1:5000/predict", 
-            // url: "process.env.REACT_APP_PREDICT",
-            url: "https://startup-success-predictor-api.herokuapp.com/predict",
+            url: "http://127.0.0.1:5000/predict", 
+            // url: "https://startup-success-predictor-api.herokuapp.com/predict",
             data: {"total_funding": total_funding, "founded_year": founded_year}
         
         //  Receive a response either 0 or 1 and display the results on screen 
