@@ -4,6 +4,7 @@
 - **Last Updated: January 2nd, 2021**
 - **[Website Link](https://startup-success-predictor.netlify.app/)**
 - **[Heroku API Link](https://startup-success-predictor-api.herokuapp.com)**
+- **[Demo Video](https://www.youtube.com/watch?v=399VnVBpyb0)**
 - **[Documentation](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/tree/master/Documentation)**
     - **[Project Overview](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/1_Project_Overview.md)**
     - **[Background Knowledge](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Documentation/2_Background_Knowledge.md)**
@@ -13,7 +14,7 @@
             
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d94e1949-ad8e-456b-a2b0-7049dc10ea58/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
-![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)
+[![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)](https://www.youtube.com/watch?v=399VnVBpyb0)
 
 ### **Quickstart**
 
