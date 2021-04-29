@@ -2,7 +2,7 @@ import flask
 from flask import Flask, jsonify, request
 import pickle
 import json
-import sklearn as sklearn
+# import sklearn as sklearn
 import numpy as np
 from flask_cors import CORS
 
@@ -13,7 +13,6 @@ from flask_cors import CORS
 app = Flask(__name__)
 # Cors allows use to run frontend and backend on seprate local hosts 
 cors = CORS(app) 
-
 
 def load_models():
     """"
@@ -47,7 +46,6 @@ def predict():
 
     total_funding = float(data['total_funding']) # Break down each input into seprate variables 
     founded_year = float(data['founded_year'])
-
 
     X_test = np.array([total_funding, founded_year]) # Create a X_test variable of the user's input
     prediction = model.predict(X_test.reshape(1, -1)) # Use the the  X_test to to predict the success using the  predict()
