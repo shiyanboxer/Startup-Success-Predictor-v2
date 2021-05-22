@@ -1,14 +1,21 @@
 ## **Testing**
 
 The following types of test were preformed.
-
 - **Component/subsystem testing:** each subcomponent needs to be thoroughly tested during the prototype stage
-- **Integration testing:** test to see if different components/subsystem communicate the way they should
+- **Integration testing** test to see if different components/subsystem communicate the way they should
 - **Full system testing (unit testing):** how the entire system works after integration of all the components
-- **Field testing:** testing the product in scenarios very close to how the final product/system will be used.
-- **Iteration on user testing and feedback:** when the product is stable, more rounds of user testing might be required to understand if users want the product and how they would use it. Based on feedback minor changes
-- **Beta release:** beta release are meant to flush out bugs that happen in scale or might have escaped previous rounds - fix before release
+- **Model Accuracy** Accuracy test using Sklearn module -> 94%
 
+**Tools:**
+- **Unit Tests:** unittest python framework
+- **Postman:** Allows create, share, test and document APIs. create  HTTP/s requests, and read responses
+- **Browser Console:** Checking HTTP requests was sent properly from the frontend and received by the backend 
+
+
+**Future Testing:**
+- **Beta release:** beta release are meant to flush out bugs that happen in scale or might have escaped previous rounds - fix before release
+- **Iteration on user testing and feedback:** when the product is stable, more rounds of user testing might be required to understand if users want the product and how they would use it. Based on feedback minor changes
+- **Field testing:** testing the product in scenarios very close to how the final product/system will be used.
 
 ## **Next Steps**
 
