@@ -60,7 +60,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(response_1.status_code, 200)
         self.assertEqual(response_2.status_code, 200)
 
-    # HELLO - read contents type
+    # PREDICT - read contents type
     def test_predict_readcontent(self):
         response = requests.get(API_URL_PREDICT)
         self.assertEqual(response.headers["Content-Type"], "text/html; charset=utf-8")
