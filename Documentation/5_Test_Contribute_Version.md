@@ -27,7 +27,8 @@ The following types of test were preformed.
 ```   
 
 - content type example
-- 
+
+
 ```   
     # PREDICT - read contents type
     def test_predict_readcontent(self):
