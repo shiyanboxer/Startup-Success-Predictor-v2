@@ -7,6 +7,7 @@ from flask import Flask
 # https://docs.python.org/3/library/unittest.html
 # https://www.youtube.com/watch?v=iQVvpnRYl-w
 # https://www.geeksforgeeks.org/get-post-requests-using-python/
+# https://www.ontestautomation.com/writing-tests-for-restful-apis-in-python-using-requests-part-1-basic-tests/
 
 API_URL_HELLO = "http://127.0.0.1:5000/"
 API_URL_PREDICT = "http://127.0.0.1:5000/predict"
@@ -58,6 +59,12 @@ class TestCase(unittest.TestCase):
         response_2 = requests.get(url = API_URL_PREDICT, params = parameter_2)
         self.assertEqual(response_1.status_code, 200)
         self.assertEqual(response_2.status_code, 200)
+
+    # HELLO - read contents type
+    def test_predict_readcontent(self):
+        response = requests.get(API_URL_PREDICT)
+        self.assertEqual(response.headers["Content-Type"], "text/html; charset=utf-8")
+    
 
     # PREDICT - checking request url 
     def test_url(self):
