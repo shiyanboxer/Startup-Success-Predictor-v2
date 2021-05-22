@@ -17,11 +17,44 @@ The following types of test were preformed.
 - **Field testing:** testing the product in scenarios very close to how the final product/system will be used.
 
 **[app_test.py](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/3API/app_test.py)**: Unit test were written using the unittest module to test the hello() and predict() methods by checking:
-- status code
-- content type
+- status code example
+  
+```
+    # HELLO - status code - 200 (ok)
+    def test_hello_status(self):
+        response = requests.get(API_URL_HELLO)
+        self.assertEqual(response.status_code, 200)
+```   
+
+- content type example
+- 
+```   
+    # PREDICT - read contents type
+    def test_predict_readcontent(self):
+        response = requests.get(API_URL_PREDICT)
+        self.assertEqual(response.headers["Content-Type"], "text/html; charset=utf-8")
+```
+
 - response data
+
+```
+    # HELLO - check for data returned
+    def test_read_content(self):
+        expectedResult = {"response": "hello world"}
+        response = requests.get(API_URL_HELLO).json()
+        self.assertEqual(response, expectedResult)
+```
+
 - parameters
-- reponse between 0-1
+  
+```
+    # PREDICT - check for data returned
+    def test_read_content(self):
+        parameter = {"total_funding": 100, "founded_year": 100}
+        expectedResult = {"total_funding": 100, "founded_year": 100}
+        response = requests.get(url = API_URL_HELLO, params= parameter)
+        self.assertEqual(response.json(), expectedResult)
+```    
 
 ## **Next Steps**
 
