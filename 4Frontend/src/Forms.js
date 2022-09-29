@@ -13,7 +13,8 @@ import {MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText} from 'mdb
 
 class Forms extends Component {
 
-    // Handler function that gets form input by ID and assigns it to variables, makes sure input is valid, send request and receives a response that's displayed onscreen  
+    // Handler function that gets form input by ID and assigns it to variables, 
+    // makes sure input is valid, send request and receives a response that's displayed onscreen  
     handler() {
         const total_funding = document.getElementById("total_funding").value
         const founded_year = document.getElementById("founded_year").value
