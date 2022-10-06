@@ -6,9 +6,7 @@ import {MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText} from 'mdb
 
 
 // TODO: 
-// - Do not use document.getElementById
-// - Move the api url to be an environment variable, rather then hard coding it
-// https://medium.com/chingu/an-introduction-to-environment-variables-and-how-to-use-them-f602f66d15fa
+// Change to functional component
 // Use react hooks https://gist.github.com/kirkbyo/27cd20a0ed3bc139ff36457d4c7797f0
 
 class Forms extends Component {
@@ -16,9 +14,9 @@ class Forms extends Component {
     // Handler function that gets form input by ID and assigns it to variables, 
     // makes sure input is valid, send request and receives a response that's displayed onscreen  
     handler() {
+        //  Use hooks instead
         const total_funding = document.getElementById("total_funding").value
         const founded_year = document.getElementById("founded_year").value
-        
         // User must input values in both fields before submitting or a message will pop up 
         if (total_funding === "" || founded_year === "") {
             alert("Please enter details")
