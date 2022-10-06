@@ -2,7 +2,7 @@
 
 ## **Software Architecture**
 
-![Software Architecture](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/SoftwareArch.jpg)
+![Software Architecture](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/Startup%20Success%20Predictor%20-%20Software%20Architecture.drawio.png)
 
 ## **Control Flow Diagram**
 
