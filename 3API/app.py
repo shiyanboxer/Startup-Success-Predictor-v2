@@ -46,6 +46,10 @@ def predict():
     model = load_models() # Get an instance of the model calling the load_models()
     data = json.loads(request.data) # Load the request from the user and store in the variable "data"
 
+    # Raises a 400 error if invalid input
+    if type(data['total_funding']) != int or type(data['founded_year']) != int:
+        return 'User entered invalid input type', 400
+
     total_funding = float(data['total_funding']) # Break down each input into seprate variables 
     founded_year = float(data['founded_year'])
     

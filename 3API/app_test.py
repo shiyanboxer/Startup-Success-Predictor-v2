@@ -66,7 +66,7 @@ class TestCase(unittest.TestCase):
     def test_predict_invalid_input(self):
         parameter = {"total_funding": 100, "founded_year": "one thousand"}
         response = requests.post(API_URL_PREDICT, json = parameter)
-        self.assertEqual(response.status_code, 500)
+        self.assertEqual(response.status_code, 400)
 
     # # PREDICT - check response
     def test_predict_successful(self):
