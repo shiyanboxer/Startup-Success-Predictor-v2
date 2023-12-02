@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, TextField, Box, CircularProgress } from '@mui/material';
+import { Button, TextField, Box, CircularProgress, Typography } from '@mui/material';
 import axios from 'axios';
 
 const API_URL = 'https://startup-success-predictor-api.herokuapp.com/predict';
@@ -58,11 +58,10 @@ export default function Prediction() {
             >
                 {loading ? <CircularProgress size={24} /> : 'Make a Prediction'}
             </Button>
-            {predictionResult && (
-                <div style={{ marginTop: 10 }}>
-                    <strong>Prediction Result:</strong> {predictionResult}
-                </div>
-            )}
+            <Box style={{ marginTop: 10 }}>
+                <Typography variant="h6">Prediction Result:</Typography>
+                <Typography variant="h3">{"Successful"}</Typography>
+            </Box>
         </Box>
     );
 }

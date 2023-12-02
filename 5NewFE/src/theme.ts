@@ -21,11 +21,11 @@ const theme = createTheme({
       main: red.A400,
     },
     text: {
-      primary: '#FFFFFF',
-      secondary: '#F1F1F1',
+      primary: '#000000',
+      secondary: '#545454',
     },
     background: {
-      default: '#25292D',
+      default: "#FDFBF5",
     },
   },
   typography: {
