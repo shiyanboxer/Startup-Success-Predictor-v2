@@ -1,5 +1,5 @@
 .App {
-  background-color: #282c34;
+  background-color: #191919;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,27 +7,33 @@
   text-align: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .highlight {
-  color: #61dafb;
+  color: #FCFAF4;
 }
 
-.button {
-  background-color: #61dafb;
+.my_button {
+  background-color: #FCFAF4;
+  color: #191919;
   padding: 1.5em;
   border-radius: 1em;
   font-size: 0.5em;
 }
 
 .forms {
-    display: flex;
-    justify-content: 'center';
-    align-items: 'center';
-    background: black;
-    padding: 1.5em;
-    border-radius: 1em;
-    margin: 2em;
+  display: flex;
+  justify-content: 'center';
+  align-items: 'center';
+  background: black;
+  padding: 1.5em;
+  border-radius: 1em;
+  margin: 2em;
 }
-
