@@ -14,7 +14,7 @@
             
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d94e1949-ad8e-456b-a2b0-7049dc10ea58/deploy-status)](https://app.netlify.com/sites/startup-success-predictor/deploys)
 
-[![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.jpg)](https://www.youtube.com/watch?v=399VnVBpyb0)
+[![Website Screenshot](https://github.com/shiyanboxer/Startup-Success-Predictor-v2/blob/master/Images/WebsiteScreenshot.png)](https://www.youtube.com/watch?v=399VnVBpyb0)
 
 ### **Quickstart**
 
